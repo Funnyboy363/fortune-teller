@@ -1,0 +1,150 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*  apply a natural box layout model to all elements  */
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+/*---------------------------------------------body----------------------------------------*/
+
+
+body {
+    font-size: 16px;
+    width: 100%;
+    background-color: black;
+    color: lightgray;
+}
+
+
+
+/*-----------------------------------------------header-----------------------------------*/
+
+
+header {
+	padding: 5rem;
+	width: 100%;
+	
+    background-color: black;
+    color: $fontColor;
+    background-image: url(../images/fortuneteller.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    } 
+    
+
+    .thebutton {
+        margin-top: 3rem;
+       text-align: center;
+    }
+
+
+    button {
+        padding: 1rem;
+        border-radius: .5rem;
+        border: none;
+        background-color: #583026;
+        color: #d89e6b;
+    }
+
+    #feedback {
+        margin-top: 2rem;
+        font-size: 25px;
+        font-family: 'Felipa', cursive;
+        color: #d89e6b;
+        font-weight: bold;
+    }
+    
+    
+    
+    h1 {
+        font-size: 4rem;
+        text-align: center;
+        color: black;
+        text-shadow: 5px 3px 9px #d89e6b;
+
+    }
+    
+    
+    h2 {
+        font-size: 1.5rem;
+        color: black;
+        text-align: center;
+    } 
+    
+    h3 {
+        font-size: 1.2rem;
+        color: lighten ($primaryColor, 20%);
+        padding-top: 4rem;
+        margin-left: 2rem;
+        margin-top: 1.3rem;
+        color: #2e1c1e;
+    } 
+    
+    p {
+        line-height:  130%;
+        color: #2e1c1e;
+
+    } 
+
+    .list {
+        color: #2e1c1e;
+    }
+    
+    
+    div.name {
+	font-size: 2.5rem;
+	color: brown;
+}
+
+    
+   
+/*-----------------------------------------------footer-----------------------------------*/
+
+
+footer {
+    width: 100%;
+    background-color: $primaryColor;
+    }
+    
+    p {
+        text-align: center;
+        color: $secondaryColor;
+        padding: .75rem 0;
+        font-size: .9rem;
+    } //end of p
+    
+    
+    p a {
+        color: $secondaryColor;
+    }
+    
+    
+    
+   
+
+
+
+
+
+
+
+
+
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+
+
+
+
+ 
